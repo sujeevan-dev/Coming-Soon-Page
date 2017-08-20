@@ -3,3 +3,13 @@ html, body{
 	height: auto;
 	background-size: cover;
 }
+
+#logo img{
+
+	padding-top: 20px;
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+
+
