@@ -49,6 +49,14 @@ html, body{
 	margin-top: 30px;
 }
 
+#timer {
+	font-family: 'Raleway';
+	color: white;
+	text-align: center;
+	font-size: 1.0em;
+	margin: 15px 0 0 0;
+}
+
 #icon{
 	text-align: center;
 	margin-top: 30px;
@@ -81,4 +89,69 @@ html, body{
 #icon .instagram:hover {
 	color: #517fa6;
 	bottom: 5px;
+}
+
+/*Media Queries*/
+@media(max-width:768px) {
+    
+    #logo img {
+        width:50%;
+    }
+
+    #counter .countdown {
+        font-size:1.4em !important;
+    }
+
+    #icons .fa {
+        margin:10px 0 !important;
+        font-size:2em;
+    }
+    
+    .btn-signup{
+        	width: 100%;
+        }
+    
+}
+
+@media(min-width:321px)
+    and (max-width:568px) {
+        
+        #logo img {
+            width:20%;
+        }
+        .btn-signup{
+        	width: 100%;
+        }
+        
+}
+
+@media(max-width:321px) {
+	
+* {
+	overflow-x: hidden;
+}
+
+	#intro h1{
+		margin: 30px 5px 10px 5px !important;
+		font-size: 1em !important;
+		text-align: center !important;
+	}
+    
+    #logo img {
+        width:100px !important;
+        height: 100px !important;
+        margin: 0 auto !important;
+    }
+    #counter .countdown {
+        font-size:.5em !important;
+    }
+    #icons .fa {
+        margin:10px 0 !important;
+        font-size:2em;
+    }
+    .btn-signup, input{
+        	width: 90% !important;
+        	margin: 0 auto !important;
+        }
+    
 }
