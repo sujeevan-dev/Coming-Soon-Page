@@ -85,5 +85,20 @@
         </div>
       </div>
     </section>
+
+
+
+    <!--Local Files-->
+    <script type="text/javascript" src="js/jquery.countdown.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    
+    <!--timer-->
+	<script type="text/javascript">
+
+  	$("#timer").countdown("2018/01/01", function(event) {
+    	$(this).text(event.strftime('%D days, %H hours, %M min and %S sec'));
+  			});
+
+	</script>
 </body>
 </html>
